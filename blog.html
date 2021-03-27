@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,600;1,700&display=swap" rel="stylesheet">
+    <title>University Website Design by Bohdan Halunka</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Program for 2021</h1>
+    </section>
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Program for 2021</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero eaque aspernatur ipsa quo voluptatum libero iure magnam repellat nihil voluptate, quidem qua <br> s neque recusandae odio, architecto saepe nisi quis laudantium!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi accusamus veniam, totam quo quis illo, vel temporibus facere est deleniti dolorum et sequi ut eos distinctio repellendus! Consectetur, sed cupiditate!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatibus illum, magnam consequatur repellendus itaque at officia aspernatur porro, aut velit dolore veritatis blanditiis molestiae hic incidunt, quibusdam iusto voluptatem.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter your name">
+                        <input type="email" placeholder="Enter your email">
+                        <textarea  rows="5" placeholder="Your comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <div class="icons">
+        <li><a href="https://www.youtube.com/watch?v=zdA3qZNH1vc&t=408s" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/barackobama" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCSZyjvxi7-k4wwyq43PPGEg" target="_blank"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="https://www.instagram.com/bohdan_halunka/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> designed by Bohdan Halunka</p>
+</section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

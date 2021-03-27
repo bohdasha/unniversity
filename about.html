@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,600;1,700&display=swap" rel="stylesheet">
+    <title>University Website Design by Bohdan Halunka</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the best university in the USA</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias cumque maiores dolores eius fugiat sunt, illum reiciendis aliquid, laborum ut, voluptates enim! Atque vero accusantium quam, deleniti quasi at accusamus.</p>
+                <a href="" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="img/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <div class="icons">
+        <li><a href="https://www.youtube.com/watch?v=zdA3qZNH1vc&t=408s" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/barackobama" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCSZyjvxi7-k4wwyq43PPGEg" target="_blank"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="https://www.instagram.com/bohdan_halunka/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> designed by Bohdan Halunka</p>
+</section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
